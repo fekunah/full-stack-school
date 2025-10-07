@@ -1,4 +1,24 @@
-# Lama Dev School Management Dashboard
+# School Management System
+
+A comprehensive school management dashboard built with Next.js, Prisma, and Clerk authentication.
+
+## Features
+
+- **Authentication & Authorization**: Role-based access (Admin, Teacher, Student, Parent)
+- **Dashboard**: Real-time analytics and charts
+- **Student Management**: Complete student records and tracking
+- **Teacher Management**: Teacher profiles and assignments
+- **Class Management**: Class schedules and attendance
+- **Grade Management**: Exam results and academic performance
+- **Event Management**: School events and announcements
+
+## Tech Stack
+
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes, Prisma ORM
+- **Database**: PostgreSQL
+- **Authentication**: Clerk
+- **Deployment**: Vercel
 
 ## Getting Started
 

@@ -10,6 +10,7 @@ const matchers = Object.keys(routeAccessMap).map((route) => ({
 console.log(matchers);
 
 export default clerkMiddleware((auth, req) => {
+  // Enable authentication for production
   // if (isProtectedRoute(req)) auth().protect()
 
   const { sessionClaims } = auth();
